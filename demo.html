@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>跑分器</title>
+		<style>
+			.page{
+				width:800px;
+				height:100px;
+				background:#D5B675;
+				font-size: 100px;
+				font-weight: bold;
+				color: #060100;
+				margin:10px auto;
+				text-align:center;
+				text-shadow:2px 2px 5px #333333;
+				background:-webkit-gradient(linear,0% 0%, 0% 100%, from(#916331), to(#916331), color-stop(0.5,#EEC778))
+			}
+		</style>
+		<script type="text/javascript" src="./js/jquery-1.8.2.js"></script>
+		<script type="text/javascript" src="./js/jquery.runScore.js"></script>
+		<script>
+			$(function(){
+				$('#page1').runScore();
+				$('#page2').runScore({end:1234567890});
+				$('#page3').runScore({end:1234567890,time:10000});
+				$('#page4').runScore({end:1234567890,time:10000,speed:10,start:1000000});
+			})
+		</script>
+	</head>
+	<body>
+		<div id="page1" class="page"></div>
+		<div id="page2" class="page"></div>
+		<div id="page3" class="page"></div>
+		<div id="page4" class="page"></div>
+		<pre>
+			<code>
+				$('#page1').runScore();
+				$('#page2').runScore({end:1234567890});
+				$('#page3').runScore({end:1234567890,time:10000});
+				$('#page4').runScore({end:1234567890,time:10000,speed:10,start:1000000});
+			</code>
+		</pre>
+	</body>
+</html>
