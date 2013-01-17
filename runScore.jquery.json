@@ -1,0 +1,34 @@
+{
+    "name": "runScore",
+    "title": "jQuery runScore",
+    "description": "jQuery plugin for animation that number to number.",
+    "keywords": [
+      "score",
+    "animation"
+      ],
+    "version": "1.0.0",
+    "author": {
+      "name": "yanhaijing",
+      "url": "https://github.com/yanhaijing"
+    },
+    "maintainers": [
+    {
+      "name": "yanhaijing",
+      "email": "yanhaijing1234@gmail.com",
+      "url": "http://t.qq.com/yanhaijing1234"
+    }
+  ],
+    "licenses": [
+    {
+      "type": "MIT",
+      "url": ""
+    }
+  ],
+    "bugs": "https://github.com/yanhaijing/jquery.runScore.js/issues",
+    "homepage": "https://github.com/yanhaijing/jquery.runScore.js",
+    "docs": "https://github.com/yanhaijing/jquery.runScore.js",
+    "download": "https://github.com/yanhaijing/jquery.runScore.js",
+    "dependencies": {
+      "jquery": ">=1.5"
+    }
+}
