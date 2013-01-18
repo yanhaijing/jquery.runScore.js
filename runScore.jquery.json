@@ -6,15 +6,16 @@
     			"animation",
     			"game"
       	],
-    "version": "1.0.7",
+    "version": "1.0.8",
     "author": {
       "name": "yanhaijing",
+      "email":"776771343@qq.com",
       "url": "https://github.com/yanhaijing"
     },
     "maintainers": [
     {
       "name": "yanhaijing",
-      "email": "yanhaijing1234@gmail.com",
+      "email":"776771343@qq.com",
       "url": "http://t.qq.com/yanhaijing1234"
     }
   ],
