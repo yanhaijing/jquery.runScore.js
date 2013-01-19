@@ -22,7 +22,7 @@
 			currentScore = setting.start;
 			
 			function run(){
-				
+				setting.callstep();//执行每步回调函数
 				$(that).html(currentScore);
 				
 				currentScore += step;
@@ -33,6 +33,8 @@
 					window.setTimeout(function(){
 						run();
 					}, setting.speed);
+				}else{
+					setting.callback();//结束执行回调函数
 				}
 				
 				setting.end - currentScore < step ? currentScore = setting.end : '0';
